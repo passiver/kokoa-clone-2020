@@ -1,0 +1,86 @@
+.open-chat__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.open-chat__imgand {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.open-chat__imgand-border-bottom {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.open-chat__imgand__tag {
+    margin-top: 15px;
+}
+
+.open-chat__imgand__tag div {
+    display: flex;
+    align-items: center;
+}
+
+.open-chat__imgand__tag span:nth-child(2) {
+    margin-right: 7px;
+    opacity: 0.5
+}
+
+.open-chat__imgand__tag .empty-bar {
+    margin-right: 7px;
+    width: 2px;
+    height: 15px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.open-chat__imgand__tag span:last-child {
+    color: darkorchid;
+}
+
+.open-chat__imgand__tag img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+
+.open-chat__imgand__tag h5 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.open-chat__imgand__tag h6 {
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 7px;
+}
+
+.open-chat__imgand__img {
+    position: relative;
+}
+
+.open-chat__imgand__img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.open-chat__imgand__div {
+    width: 50px;
+    background-color: rgba(0,0,0,0.4);
+    padding: 5px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    color: white;
+}
+

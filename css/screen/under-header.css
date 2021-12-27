@@ -1,0 +1,15 @@
+.under-header {
+    background-color: rgba(0,0,0,0.018);
+    padding: 11px;
+    text-align: center;
+    margin: 10px 0px;
+    color: rgba(0,0,0,0.7);
+}
+
+.under-header span {
+    margin: 0px 5px;
+}
+
+.under-header i {
+    opacity: 0.3;
+}

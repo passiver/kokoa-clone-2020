@@ -1,0 +1,71 @@
+@keyframes popupIcon{
+    from {
+        transform: translateY(80px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.nav__ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 0;
+    background-color: rgb(242,242,242);
+    border-top: 1px solid rgba(0,0,0,0.1);
+    /* animation: popupIcon 0.5s ease-in-out; */
+}
+
+.nav__li {
+    transition: all 0.08s ease-in-out;
+}
+
+.nav__li:hover {
+    transform: scale(1.8);
+}
+
+.nav__li:nth-child(2) {
+    position: relative;
+}
+
+@keyframes moveBadge{
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-10px) rotateY(360deg);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes moveBadge2{
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(10px) rotateY(-450deg);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.notification {
+    top: -10px;
+    right: -13px;
+    
+}
+
+.moveBadge {
+    animation: moveBadge 2s ease-in-out infinite;
+}
+
+.moveBadge2 {
+    animation: moveBadge2 2s ease-in-out infinite;
+}

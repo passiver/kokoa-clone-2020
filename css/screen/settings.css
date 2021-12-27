@@ -1,0 +1,46 @@
+.settings {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.settings span {
+    font-size: 30px;
+}
+
+.settings-list {
+    margin: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    color: rgb(70, 70, 70);
+    padding: 22px 0px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.settings-list__div i {
+    margin-right: 20px;
+}
+
+.settings-list-underborder {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    margin-bottom: 18px;
+}
+
+.setting-list_badge {
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+    left: 130px;
+    bottom: 100px;
+}
+
+.setting-list_badge2 {
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+    left: 110px;
+    bottom: 32px;
+}

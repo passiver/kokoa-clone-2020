@@ -1,0 +1,37 @@
+.header-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.header-component__column {
+    width: 33.333%;
+}
+
+.header-component__column:nth-child(2) {
+    text-align: center;
+}
+
+.header-component__column:last-child {
+    text-align: end;
+}
+
+.header-component__column:last-child i {
+    margin-left: 20px;
+}
+
+.header__column span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.header__column:last-child i {
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.under-pixed {
+    padding-top: 40px;
+}

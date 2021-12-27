@@ -1,0 +1,31 @@
+.more-friends-list {
+    padding: 0px 20px;
+    margin: 10px 0px;
+}
+
+
+.suggestions {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    margin-top: 15px;
+    padding-top: 25px;
+
+}
+
+.suggestions-icon-box {
+    margin-top: 25px;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.suggestions__icon-box-div {
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+}

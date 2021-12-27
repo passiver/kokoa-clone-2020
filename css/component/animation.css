@@ -1,0 +1,60 @@
+@keyframes rotateIcon {
+    0% {
+        transform: rotateZ(0) scale(1);
+    }
+    0.1% {
+        transform: rotateZ(0deg) scale(1.5);
+    }
+    100% {
+        transform: rotateZ(5000000deg) scale(1.5);
+    }
+}
+
+.cog-animation i {
+    transition: all 0.5s ease-in-out;
+}
+
+.cog-animation i:hover {
+    animation: rotateIcon 100s ease-in-out forwards;
+}
+
+.scale-animation {
+    transition: all 0.1s ease-in-out;
+}
+
+.scale-animation:hover {
+    transform: scale(2);
+}
+
+/* @keyframes scaleIcon {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+} */
+
+.scaleIcon {
+    transition: all 0.1s ease-in-out;
+}
+
+.scaleIcon:hover {
+    transform: scale(1.1);
+}
+
+.scaleIcon15 {
+    transition: all 0.1s ease-in-out;
+}
+
+.scaleIcon15:hover {
+    transform: scale(1.5);
+}
+
+.scaleIcon2 {
+    transition: all 0.1s ease-in-out;
+}
+
+.scaleIcon2:hover {
+    transform: scale(2);
+}

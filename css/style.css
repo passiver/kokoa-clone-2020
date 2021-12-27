@@ -1,0 +1,59 @@
+@import "reset-css.css";
+
+@import "variable.css";
+
+/* components */
+@import "component/status-bar.css";
+@import "component/badge.css";
+@import "component/header-component.css";
+@import "component/friends-list.css";
+@import "component/icon-box.css";
+@import "component/animation.css";
+
+/* screen */
+@import "screen/login-header.css";
+@import "screen/login-form.css";
+@import "screen/login-page.css";
+@import "screen/nav.css";
+@import "screen/under-header.css";
+@import "screen/open-chat.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chatting.css";
+
+.friends-body {
+    height: 160vh;
+}
+
+.find-body {
+    height: 112vh;
+}
+
+.chatting-body {
+    height: 200vh;
+    background-color: rgb(186, 202, 231);
+}
+
+main {
+    padding: 0px 20px;
+}
+
+.no-mobile {
+    position: absolute;
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    z-index: 5;
+}
+
+@media screen and (max-width : 501px) {
+    .no-mobile {
+        display: none;
+    }
+}

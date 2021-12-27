@@ -1,0 +1,18 @@
+.login-header {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.login-header h2 {
+    color: red;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.login-header h6 {
+    color: tomato;
+    font-size: 20px;
+    
+}
