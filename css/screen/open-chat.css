@@ -12,7 +12,7 @@
 }
 
 .open-chat__imgand-border-bottom {
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(56, 34, 34, 0.1);
 }
 
 .open-chat__imgand__tag {
@@ -84,3 +84,22 @@
     color: white;
 }
 
+
+@keyframes heartBeat {
+    0% {
+        transform: none;
+        color: white;
+    }
+    50% {
+        transform: scale(2);
+        color: red;
+    }
+    100% {
+        transform: none;
+        color: white;
+    }
+}
+
+.open-chat__imgand__div:hover i {
+    animation: heartBeat 1s ease-in-out infinite;
+}
