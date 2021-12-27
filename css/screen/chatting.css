@@ -11,8 +11,22 @@
     padding-top: 22px;
 }
 
+@keyframes fadeIn {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+
+}
+
+
 .chatting-main {
     padding-top: 110px;
+    animation:  fadeIn 1s ease-in-out;
 }
 
 .chatting-date {
@@ -99,6 +113,7 @@
     width: 100%;
     box-sizing: border-box;
     padding: 8px;
+    transition: all .3s ease-in-out;
 }
 
 .chatting-form__column1 {
@@ -124,6 +139,7 @@
     border: 1px solid rgb(216, 216, 216);
     border-radius: 30px;
     padding: 10px 20px;
+    transition: all .3s ease-in-out;
 }
 
 .chatting-form__column2 > i, .chatting-form__column2 button {
@@ -149,4 +165,22 @@
     align-items: center;
     border: none;
     background-color: var(--yellow);
+}
+
+.chatting-form .chatting-form__column1, .chatting-form .fa-smile, .chatting-form button {
+    transition: opacity .3s ease-in-out;
+}
+
+
+.chatting-form:focus-within .chatting-form__column1, .chatting-form:focus-within .fa-smile, .chatting-form:focus-within button{
+    opacity: 0;
+}
+
+.chatting-form:focus-within input {
+    width: 95vw;
+    transform: translateX(-10%) translateY(-80px);
+}
+
+.chatting-form:focus-within {
+    transform: translateY(80px);
 }
