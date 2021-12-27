@@ -3,7 +3,7 @@
     padding: 11px;
     text-align: center;
     margin: 10px 0px;
-    color: rgba(0,0,0,0.7);
+    color: rgb(143, 143, 143);
 }
 
 .under-header span {
@@ -11,5 +11,5 @@
 }
 
 .under-header i {
-    opacity: 0.3;
+    color: rgb(143, 143, 143);
 }

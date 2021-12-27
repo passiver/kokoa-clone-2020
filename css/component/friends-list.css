@@ -12,17 +12,27 @@
 
 .friends-list__column:last-child {
     display: flex;
+    position: relative;
+}
+
+.friends-list__column:last-child span {
+    margin-top: 2px;
+    margin-right: 4px;
+}
+
+.friends-list__column__replay {
+    display: flex;
     flex-direction: column;
     align-items: flex-end; 
     position: relative;
 }
 
-.friends-list__column:last-child span:first-child {
+.friends-list__column__replay:last-child span:first-child {
     margin-top: -10px;
     margin-bottom: 7px;
 }
 
-.friends-list__column:last-child span:last-child {
+.friends-list__column__replay:last-child span:last-child {
     bottom: -20px;
     width: 22px;
     height: 22px;
@@ -55,7 +65,7 @@
 
 .user-message {
     font-size: 16px;
-    opacity: 0.5;
+    color: rgb(143, 143, 143);
     margin-top: 5px;
 }
 
